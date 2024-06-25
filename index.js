@@ -51,9 +51,11 @@ function MakeSubjectForm(subNo) {
   }
   // Clear previous form if it exists
   const existingContainer2 = document.querySelector(".container2");
-  const existingSubmitButton = document.querySelector(".cal-btn");
   if (existingContainer2) existingContainer2.remove();
+  const existingSubmitButton = document.querySelector(".cal-btn");
   if (existingSubmitButton) existingSubmitButton.remove();
+  const existingDisplayContainer = document.querySelector(".display-container");
+  if (existingDisplayContainer) existingDisplayContainer.remove();
 
   SubjectForm = [];
   const Container2 = document.createElement("div");
@@ -173,8 +175,8 @@ function getTheData() {
 
 function displayAllSubjects() {
   const existingDisplayContainer = document.querySelector(".display-container");
-  const existingScore=document.querySelector('.score');
   if (existingDisplayContainer) existingDisplayContainer.remove();
+  const existingScore=document.querySelector('.score');
   if(existingScore) existingScore.remove();
 
   const DisplayContainer = document.createElement("div");
