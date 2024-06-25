@@ -49,13 +49,15 @@ function MakeSubjectForm(subNo) {
     console.log("Enter a valid number of subjects.");
     return;
   }
-  // Clear previous form if it exists
+  
   const existingContainer2 = document.querySelector(".container2");
   if (existingContainer2) existingContainer2.remove();
   const existingSubmitButton = document.querySelector(".cal-btn");
   if (existingSubmitButton) existingSubmitButton.remove();
   const existingDisplayContainer = document.querySelector(".display-container");
   if (existingDisplayContainer) existingDisplayContainer.remove();
+  const existingScore=document.querySelector('.score');
+  if(existingScore) existingScore.remove();
 
   SubjectForm = [];
   const Container2 = document.createElement("div");
