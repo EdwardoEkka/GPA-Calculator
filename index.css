@@ -1,0 +1,118 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap:20px;
+}
+
+.for-5{
+    padding: 10px;
+    border: none;
+    background-color: rgb(65, 65, 218);
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.for-10{
+    padding: 10px;
+    border: none;
+    background-color: rgb(56, 56, 187);
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#subject-input{
+    height:30px;
+}
+
+.container1 .submit-no-sub{
+    padding: 10px;
+    border: none;
+    background-color: rgb(12, 63, 42);
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.all-input{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+.all-input input{
+    height: 30px;
+    border: 2px solid rgb(34, 11, 11);
+    border-radius: 3px;
+}
+
+.all-input-head{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+
+.all-input-head input{
+    height: 30px;
+    border: 2px solid rgb(34, 11, 11);
+    background-color: rgb(62, 54, 54);
+    color: white;
+    border-radius: 5px;
+}
+
+.sub-head{
+    text-align: center;
+}
+
+.cred-head{
+    width: 40px;
+    text-align: center;
+}
+
+.grad-head{
+    text-align: center;
+    width: 40px;
+}
+
+.cal-btn{
+    border: none;
+    background-color: rgb(51, 74, 28);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.display-container {
+    margin-top: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
